@@ -1,13 +1,15 @@
 import React from 'react';
-import Navigation from './Navigation';
+
+import Content from './components/molecules/aboutContent';
+import Navigation from './components/organisms/Navigation';
+import PageTemplate from './components/template/PageTemplate';
  
 const About = () => {
     return (
-       <div>
-          <Navigation/>
-          <h1>About US</h1>
-          <p>About US page body content</p>
-       </div>
+   <PageTemplate
+      header={ <Navigation/> }
+      content={ <Content/> }
+  />
     );
 }
  

@@ -1,14 +1,15 @@
 import React from 'react';
+import Content from './components/molecules/contactContent';
+import Navigation from './components/organisms/Navigation';
+import PageTemplate from './components/template/PageTemplate';
 
-import Navigation from './Navigation';
  
 const Contact = () => {
     return (
-       <div>
-          <Navigation/>
-          <h1>Contact US</h1>
-          <p>Contact US page body content</p>
-       </div>
+      <PageTemplate
+      header={ <Navigation/> }
+      content={ <Content/> }
+  />
     );
 }
  

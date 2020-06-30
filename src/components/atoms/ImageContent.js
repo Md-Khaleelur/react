@@ -5,7 +5,7 @@ export default class ImageContent extends Component {
     render() {
         return (
             <div>
-                <img src={this.props.sourceName}  />
+                <img src={this.props.sourceName} alt="img-miss" />
             </div>
         )
     }
