@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactContent component Matches the snapshot 1`] = `
+<div
+  data-testid="contactContent"
+>
+  <div
+    data-testid="title"
+  >
+    <h2>
+      Contact US
+    </h2>
+  </div>
+  <div
+    data-testid="para"
+  >
+    <p>
+      Contact US page body content
+    </p>
+  </div>
+</div>
+`;

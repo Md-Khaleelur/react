@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutContent component Matches the snapshot 1`] = `
+<div
+  data-testid="aboutContent"
+>
+  <div
+    data-testid="title"
+  >
+    <h2>
+      About US
+    </h2>
+  </div>
+  <div
+    data-testid="para"
+  >
+    <p>
+      About US page body content
+    </p>
+  </div>
+</div>
+`;

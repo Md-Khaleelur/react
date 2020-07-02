@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeContent component Matches the snapshot 1`] = `
+<div
+  data-testid="homeContent"
+>
+  <div
+    className="index"
+  >
+    <div
+      className="wrapper"
+    >
+      <div
+        className="img-info"
+      >
+        <div
+          data-testid="title"
+        >
+          <h2>
+            MOHAMMED KHALEELUR REHMAN
+          </h2>
+        </div>
+        <div
+          data-testid="para"
+        >
+          <p>
+            I am Mohammed Khaleelur Rehman, an undergraduate Computer Science Engineering student at Muffakham Jah College of Engineering and Technology, Hyderabad. I am learning to become a full stack web developer.
+          </p>
+        </div>
+        <div
+          data-testid="para"
+        >
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          </p>
+        </div>
+      </div>
+      <div
+        data-testid="imageContent"
+      >
+        <img
+          alt="img-miss"
+          src="me2.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

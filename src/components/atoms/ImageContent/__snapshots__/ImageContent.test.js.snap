@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageContent component Matches the snapshot 1`] = `
+<div
+  data-testid="imageContent"
+>
+  <img
+    alt="img-miss"
+  />
+</div>
+`;
