@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "../template/styles.css";
 
-export default class Title extends Component {
-    render() {
+export default function Title() {
+   
         return (
             <div>
                 <h2>{this.props.title}</h2>
             </div>
         )
-    }
+    
 }
